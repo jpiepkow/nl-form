@@ -8,6 +8,8 @@ The key differences in this project are
 
 2.As of version one only uses select elements as compared to input also like the example above.
 
+3.Not nearly as styled as the version linked above. v1 is purly for functionality
+
 
 ####usage:
 ```
