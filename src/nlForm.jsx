@@ -23,7 +23,7 @@ export default class nlForm extends Component {
     <form id="nl-form marg-top" className="nl-form">
     {this.newSentence}
     <br/>
-    <button type='button' onClick={this.props.onSub.bind(this)}>Submit</button>
+    <button type='button' style={{cursor:'pointer'}} onClick={this.props.onSub.bind(this)}>Submit</button>
     </form>
     );
 }
