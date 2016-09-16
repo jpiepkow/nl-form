@@ -8,9 +8,14 @@ The key differences in this project are
 
 2.As of version one only uses select elements as compared to input also like the example above.
 
+3.Not nearly as styled as the version linked above. v1 is purly for functionality
+
 
 ####usage:
 ```
+import React from 'react';
+import ReactDOM from 'react-dom';
+import NlFormContainer from './nlFormContainer';
 var callbackFunction = function(state){
 	console.log(state)
 }
