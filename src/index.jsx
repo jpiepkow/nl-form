@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import NlFormContainer from './nlFormContainer';
 import './index.css';
+//This page is for Showing test usage.
 var callbackFunction = function(state){
-	console.log(state)
+	document.getElementById("result").innerHTML = JSON.stringify(state);
+	console.log(state);
 }
 var selectObj = {
-	selectOne:[{
+	music:[{
 		value:'Jazz',
 		selected:true
 	},
@@ -23,7 +25,7 @@ var selectObj = {
 		selected:false
 	}]
 }
-var sentence ="I like {selectOne} music and live in {country}"; 
+var sentence ="I like {music} music and live in {country}"; 
 ReactDOM.render(
 	<NlFormContainer sentence={sentence} select={selectObj}  onSub={callbackFunction}/>,
 	document.getElementById('root')

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 const reactStringReplace = require('react-string-replace')
 import NlSelect from './nlSelect';
 import NlText from './nlText';
