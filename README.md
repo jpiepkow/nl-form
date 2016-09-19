@@ -12,7 +12,7 @@ The key differences in this project are
 
 
 ####usage:
-```
+```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
 import NlFormContainer from './nlFormContainer';
