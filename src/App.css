@@ -20,11 +20,7 @@
 .App-intro {
   font-size: large;
 }
-@font-face {
-  font-family: 'nlicons';
-  font-weight: normal;
-  font-style: normal;
-}
+
 /* general style for the form */
 .nl-form {
   width: 100%;
